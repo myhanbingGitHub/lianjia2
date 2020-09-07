@@ -7,4 +7,5 @@ import scrapy
 
 
 class Lianjia2Item(scrapy.Item):
-    title=url=addr1=addr2=addr3=size=direction=type=price=updateDate=floor = scrapy.Field()
+    title = url = addr1 = addr2 = addr3 = size = direction = type = price = \
+        updateDate = floor = price_unit = rent_model = rent_id = scrapy.Field()
