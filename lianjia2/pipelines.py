@@ -40,6 +40,6 @@ class Lianjia2Pipeline:
             print("记录已存入！")
         except:
             self.cnn.rollback()
-            print("记录存入失败！")
+            print("记录存入失败！%s" % item['url'])
 
         return item

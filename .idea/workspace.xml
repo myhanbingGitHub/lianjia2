@@ -4,7 +4,8 @@
     <list default="true" id="428027ac-7506-4b61-9385-cec587d39aeb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lianjia2/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia2/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianjia2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianjia2/spiders/lianjia2_spd.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia2/spiders/lianjia2_spd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianjia2/start_sprider.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia2/start_sprider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/lianjia2$start_sprider.coverage" NAME="start_sprider Coverage Results" MODIFIED="1599534644909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianjia2" />
+    <SUITE FILE_PATH="coverage/lianjia2$start_sprider.coverage" NAME="start_sprider Coverage Results" MODIFIED="1599546046030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianjia2" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -42,23 +43,16 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="forscrapy: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="forscrapy@192.168.88.106" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="forscrapy: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="lianjia_rent: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lianjia2/spiders/lianjia2_spd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+            <state relative-caret-position="-719">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -66,11 +60,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lianjia2/start_sprider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianjia2/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="391">
+              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
               <folding>
                 <element signature="e#238#273#0" expanded="true" />
               </folding>
@@ -81,17 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianjia2/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="58" column="62" lean-forward="true" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/44a6bbc1-93d3-46c5-b348-a4c54ddfc74e/console_1.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="975">
+              <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -100,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/lianjia2/items.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-end-line="10" selection-end-column="79" />
+              <caret line="9" column="17" selection-start-line="9" selection-end-line="10" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -121,10 +115,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lianjia2/items.py" />
-        <option value="$PROJECT_DIR$/lianjia2/spiders/lianjia2_spd.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/44a6bbc1-93d3-46c5-b348-a4c54ddfc74e/console_1.sql" />
         <option value="$PROJECT_DIR$/lianjia2/settings.py" />
+        <option value="$PROJECT_DIR$/lianjia2/start_sprider.py" />
         <option value="$PROJECT_DIR$/lianjia2/pipelines.py" />
+        <option value="$PROJECT_DIR$/lianjia2/spiders/lianjia2_spd.py" />
       </list>
     </option>
   </component>
@@ -140,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,6 +157,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,11 +220,12 @@
       <workItem from="1599399501000" duration="4375000" />
       <workItem from="1599458735368" duration="21824000" />
       <workItem from="1599523497566" duration="7894000" />
+      <workItem from="1599536390760" duration="8107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29718000" />
+    <option name="totallyTimeSpent" value="37825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -238,10 +234,9 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108208954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -252,12 +247,13 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Mongo Explorer" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.21002132" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.092750534" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,40 +286,54 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/44a6bbc1-93d3-46c5-b348-a4c54ddfc74e/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lianjia2/items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-end-line="10" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianjia2/spiders/lianjia2_spd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <caret line="9" column="17" selection-start-line="9" selection-end-line="10" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lianjia2/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="58" column="62" lean-forward="true" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
+        <state relative-caret-position="975">
+          <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lianjia2/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="391">
+          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
           <folding>
             <element signature="e#238#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia2/start_sprider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://44a6bbc1-93d3-46c5-b348-a4c54ddfc74e/schema/forscrapy/table/lianjia_rent">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia2/spiders/lianjia2_spd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-719">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
