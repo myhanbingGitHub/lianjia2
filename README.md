@@ -1,4 +1,4 @@
-# lianjia2
+# lianjia2  reminder: it's totally for study purpose and pls don't use it as any commercial activities.
 # it's project to crawl web site lianjia, the biggest real estate agency in China market.
 
 # the project provided solution for
